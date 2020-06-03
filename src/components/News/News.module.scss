@@ -1,0 +1,26 @@
+.newsContainer {
+  padding: 1rem;
+  a {
+    color: #a55eea;
+  }
+}
+
+.newsSupHeader {
+  font-weight: 300;
+  margin: 0 0;
+  color: #a55eea;
+}
+.newsHeader {
+  font-weight: 600;
+  margin: 0 0 2rem;
+}
+
+.postContainer {
+  margin-bottom: 2rem;
+  .postHeader {
+    margin: 0;
+  }
+  .postBody {
+    margin: 0;
+  }
+}

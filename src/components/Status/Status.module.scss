@@ -1,0 +1,42 @@
+.statusContainer {
+  padding: 2.5rem 1.5rem;
+  width: 80%;
+}
+
+.statusHeader {
+  font-weight: 600;
+  margin: 0 0 2rem;
+}
+
+.rankContainer {
+  margin-bottom: 2rem;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  .head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .image {
+      margin: 0 1rem 0 0;
+    }
+    .header {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+  }
+  .element {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+  .status {
+    &.statusOnline {
+      color: #20bf6b;
+    }
+    &.statusOffline {
+      color: #eb3b5a;
+    }
+  }
+}
